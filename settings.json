@@ -126,6 +126,14 @@
             "commands": [
                 "editor.action.showDefinitionPreviewHover"
             ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [
@@ -232,5 +240,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "notebook.lineNumbers": "on",
     "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "Night Owl Dark+++"
 }

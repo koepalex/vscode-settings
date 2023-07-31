@@ -152,6 +152,26 @@
             "commands": [
                 "editor.action.marker.prev"
             ]
+        },
+        {
+            "before": [
+                "leader",
+                "o"
+            ],
+            "commands": [
+                "editor.action.insertLineAfter",
+                "cursorUp"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "O"
+            ],
+            "commands": [
+                "editor.action.insertLineBefore",
+                "cursorDown"
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [

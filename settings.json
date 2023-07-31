@@ -134,6 +134,24 @@
             "commands": [
                 "editor.action.showHover"
             ]
+        },
+        {
+            "before": [
+                "leader",
+                "e",
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "E"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [

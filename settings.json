@@ -172,6 +172,16 @@
                 "editor.action.insertLineBefore",
                 "cursorDown"
             ]
+        },
+        {
+            "before": [
+                "leader",
+                "r",
+                "n"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [
